@@ -43,5 +43,5 @@ List<Integer> copy = new ArrayList<>(list.subList(1, 4)); // safe copy
 
 // Convert
 Integer[] arr = list.toArray(new Integer[0]);
-List<Integer> fixed = Arrays.asList(1, 2, 3); // fixed-size
-List<Integer> mutable = new ArrayList<>(Arrays.asList(1, 2, 3));
+List<Integer> fixed = Arrays.asList(1, 2, 3); // fixed-size - immutable
+List<Integer> mutable = new ArrayList<>(Arrays.asList(1, 2, 3)); // mutable

@@ -47,6 +47,7 @@ List<Map.Entry<Integer, Integer>> entries = new ArrayList<>(map.entrySet());
 entries.sort((a, b) -> Integer.compare(a.getValue(), b.getValue()));
 
 // Common traps
-// map.get(key) can return null
-// TreeMap gives sorted keys, HashMap does not
+// map.get(key) can return null -> use map.contains check first
 // containsKey(...) is safer than get(...) != null when values can be null
+// TreeMap gives sorted keys, HashMap does not
+

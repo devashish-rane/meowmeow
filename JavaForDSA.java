@@ -29,7 +29,7 @@ public class JavaForDSA{
         String s = Arrays.toString(a7);
         System.out.println(s);
 
-        arrayEater(new int[]{1,2,3,}); // pass aray as value to func
+        arrayEater(new int[]{1,2,3}); // pass aray as value to func
 
         int[][] dp1 = new int[10][]; // 1st dimansion is mandatory
 
