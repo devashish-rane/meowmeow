@@ -1,5 +1,8 @@
 import java.util.*;
 
+
+// VVIMP : Nulls not allowed in arrayDeque
+
 // Queue with ArrayDeque
 Queue<Integer> q = new ArrayDeque<>();
 q.offer(10);
